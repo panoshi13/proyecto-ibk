@@ -27,7 +27,7 @@ Tecnologías implementadas:
 
 Estructura del Proyecto
 ------------------------
-C:.
+.
 ├───.idea
 │   └───inspectionProfiles
 ├───client
@@ -54,31 +54,13 @@ C:.
 │   │       └───java
 │   │           └───com
 │   │               └───bank
-│   │                   └───client
 │   └───target
 │       ├───classes
-│       │   └───com
-│       │       └───bank
-│       │           └───client
-│       │               ├───controller
-│       │               ├───dto
-│       │               ├───handler
-│       │               ├───mapper
-│       │               ├───model
-│       │               ├───repository
-│       │               └───service
 │       ├───generated-sources
 │       │   └───annotations
-│       │       └───com
-│       │           └───bank
-│       │               └───client
-│       │                   └───mapper
 │       ├───generated-test-sources
 │       │   └───test-annotations
 │       └───test-classes
-│           └───com
-│               └───bank
-│                   └───client
 ├───client-product
 │   ├───.idea
 │   ├───.mvn
@@ -98,24 +80,13 @@ C:.
 │   │       └───java
 │   │           └───com
 │   │               └───bank
-│   │                   └───client_product
 │   └───target
 │       ├───classes
-│       │   └───com
-│       │       └───bank
-│       │           └───client_product
-│       │               ├───config
-│       │               ├───controller
-│       │               ├───dto
-│       │               └───service
 │       ├───generated-sources
 │       │   └───annotations
 │       ├───generated-test-sources
 │       │   └───test-annotations
 │       └───test-classes
-│           └───com
-│               └───bank
-│                   └───client_product
 ├───financial-product
 │   ├───.idea
 │   ├───.mvn
@@ -137,38 +108,19 @@ C:.
 │   │   └───test
 │   │       └───java
 │   │           └───com
-│   │               └───bank
-│   │                   └───financial_product
 │   └───target
 │       ├───classes
-│       │   └───com
-│       │       └───bank
-│       │           └───financial_product
-│       │               ├───controller
-│       │               ├───dto
-│       │               ├───handler
-│       │               ├───mapper
-│       │               ├───model
-│       │               ├───repository
-│       │               └───service
 │       ├───generated-sources
 │       │   └───annotations
-│       │       └───com
-│       │           └───bank
-│       │               └───financial_product
-│       │                   └───mapper
 │       ├───generated-test-sources
 │       │   └───test-annotations
 │       └───test-classes
-│           └───com
-│               └───bank
-│                   └───financial_product
 └───src
     ├───main
     │   ├───java
     │   │   └───org
     │   │       └───halfaro
-    │   │           └───ms
     │   └───resources
     └───test
         └───java
+
