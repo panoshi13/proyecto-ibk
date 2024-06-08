@@ -1,3 +1,4 @@
+![print](https://github.com/panoshi13/proyecto-ibk/assets/60948575/b3499c99-9acc-43d7-b224-06589c49633e)
 # proyecto-ibk
 Proyecto de prueba técnica para ibk
 
