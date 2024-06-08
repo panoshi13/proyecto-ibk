@@ -27,100 +27,97 @@ Tecnologías implementadas:
 
 Estructura del Proyecto
 ------------------------
-.
-├───.idea
-│   └───inspectionProfiles
-├───client
-│   ├───.idea
-│   ├───.mvn
-│   │   └───wrapper
-│   ├───src
-│   │   ├───main
-│   │   │   ├───java
-│   │   │   │   └───com
-│   │   │   │       └───bank
-│   │   │   │           └───client
-│   │   │   │               ├───config
-│   │   │   │               ├───controller
-│   │   │   │               ├───dto
-│   │   │   │               ├───handler
-│   │   │   │               ├───mapper
-│   │   │   │               ├───model
-│   │   │   │               ├───repository
-│   │   │   │               ├───service
-│   │   │   │               └───swagger
-│   │   │   └───resources
-│   │   └───test
-│   │       └───java
-│   │           └───com
-│   │               └───bank
-│   └───target
-│       ├───classes
-│       ├───generated-sources
-│       │   └───annotations
-│       ├───generated-test-sources
-│       │   └───test-annotations
-│       └───test-classes
-├───client-product
-│   ├───.idea
-│   ├───.mvn
-│   │   └───wrapper
-│   ├───src
-│   │   ├───main
-│   │   │   ├───java
-│   │   │   │   └───com
-│   │   │   │       └───bank
-│   │   │   │           └───client_product
-│   │   │   │               ├───config
-│   │   │   │               ├───controller
-│   │   │   │               ├───dto
-│   │   │   │               └───service
-│   │   │   └───resources
-│   │   └───test
-│   │       └───java
-│   │           └───com
-│   │               └───bank
-│   └───target
-│       ├───classes
-│       ├───generated-sources
-│       │   └───annotations
-│       ├───generated-test-sources
-│       │   └───test-annotations
-│       └───test-classes
-├───financial-product
-│   ├───.idea
-│   ├───.mvn
-│   │   └───wrapper
-│   ├───src
-│   │   ├───main
-│   │   │   ├───java
-│   │   │   │   └───com
-│   │   │   │       └───bank
-│   │   │   │           └───financial_product
-│   │   │   │               ├───controller
-│   │   │   │               ├───dto
-│   │   │   │               ├───handler
-│   │   │   │               ├───mapper
-│   │   │   │               ├───model
-│   │   │   │               ├───repository
-│   │   │   │               └───service
-│   │   │   └───resources
-│   │   └───test
-│   │       └───java
-│   │           └───com
-│   └───target
-│       ├───classes
-│       ├───generated-sources
-│       │   └───annotations
-│       ├───generated-test-sources
-│       │   └───test-annotations
-│       └───test-classes
-└───src
-    ├───main
-    │   ├───java
-    │   │   └───org
-    │   │       └───halfaro
-    │   └───resources
-    └───test
-        └───java
+. 
+├── .idea 
+│   └── inspectionProfiles 
+├── client 
+│   ├── .idea 
+│   ├── .mvn 
+│   │   └── wrapper 
+│   ├── src 
+│   │   ├── main 
+│   │   │   ├── java 
+│   │   │   │   └── com 
+│   │   │   │       └── bank 
+│   │   │   │           └── client 
+│   │   │   │               ├── config 
+│   │   │   │               ├── controller 
+│   │   │   │               ├── dto 
+│   │   │   │               ├── handler 
+│   │   │   │               ├── mapper 
+│   │   │   │               ├── model 
+│   │   │   │               ├── repository 
+│   │   │   │               ├── service 
+│   │   │   │               └── swagger 
+│   │   │   └── resources 
+│   │   └── test 
+│   │       └── java 
+│   │           └── com 
+│   └── target 
+│       ├── classes 
+│       ├── generated-sources 
+│       │   └── annotations 
+│       ├── generated-test-sources 
+│       │   └── test-annotations 
+│       └── test-classes 
+├── client-product 
+│   ├── .idea 
+│   ├── .mvn 
+│   │   └── wrapper 
+│   ├── src 
+│   │   ├── main 
+│   │   │   ├── java 
+│   │   │   │   └── com 
+│   │   │   │       └── bank 
+│   │   │   │           └── client_product 
+│   │   │   │               ├── config 
+│   │   │   │               ├── controller 
+│   │   │   │               ├── dto 
+│   │   │   │               └── service 
+│   │   │   └── resources 
+│   │   └── test 
+│   │       └── java 
+│   │           └── com 
+│   └── target 
+│       ├── classes 
+│       ├── generated-sources 
+│       │   └── annotations 
+│       ├── generated-test-sources 
+│       │   └── test-annotations 
+│       └── test-classes 
+├── financial-product 
+│   ├── .idea 
+│   ├── .mvn 
+│   │   └── wrapper 
+│   ├── src 
+│   │   ├── main 
+│   │   │   ├── java 
+│   │   │   │   └── com 
+│   │   │   │       └── bank 
+│   │   │   │           └── financial_product 
+│   │   │   │               ├── controller 
+│   │   │   │               ├── dto 
+│   │   │   │               ├── handler 
+│   │   │   │               ├── mapper 
+│   │   │   │               ├── model 
+│   │   │   │               ├── repository 
+│   │   │   │               └── service 
+│   │   │   └── resources 
+│   │   └── test 
+│   │       └── java 
+│   │           └── com 
+│   └── target 
+│       ├── classes 
+│       ├── generated-sources 
+│       │   └── annotations 
+│       ├── generated-test-sources 
+│       │   └── test-annotations 
+│       └── test-classes 
+└── src 
+    ├── main 
+    │   ├── java 
+    │   │   └── org 
+    │   │       └── halfaro 
+    └── test 
+        └── java
 
