@@ -1,6 +1,6 @@
 # Proyecto IBK
 
-Proyecto de prueba técnica para IBK.
+Proyecto modeular sobre prueba técnica para IBK.
 
 ## Funcionalidades:
 
